@@ -1,0 +1,12 @@
+TextWindow.Writeline ("Type a number")
+TextWindow.Read()
+If Number = 1 - 9
+then
+TextWindow.Writeline ("Number = 1-digit Number")
+elseif Number = 10 - 99
+then
+TextWindow.Writeline ("Number = 2-digit Number")
+elseif number = 100 - 999
+then
+TextWindow.Writeline ("Number = 3-digit Number")
+Endif
